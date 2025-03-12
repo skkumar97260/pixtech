@@ -2,7 +2,7 @@ import axios from "axios";
 import { clearStorage } from "../Utils/storage";
 
 
-const API = axios.create({ baseURL: "http://localhost:5255/api/" });
+const API = axios.create({ baseURL: "http://api.pixalivetech.com/api/" });
 
 API.interceptors.request.use(
   (request) => {
